@@ -34,18 +34,18 @@ export default function Portfolio() {
       <div className="container portfolio__container">
         {
           portfolioItems.map(({ id, image, title, github, demo }) => (
-            <a href={demo} target="_blank" rel='noopener noreferrer'>
-              <article className='portfolio__item' key={id}>
-                <div className="portfolio__item-image">
+            <article className='portfolio__item' key={id}>
+              <div className="portfolio__item-image">
+                <a href={demo} target="_blank" rel='noopener noreferrer'>
                   <img src={image} alt={title} />
-                </div>
-                <h3>{title}</h3>
-                <div className="portfolio__item-call-to-action">
-                  <a href={github} className="btn" target="_blank" rel='noopener noreferrer'>GitHub Repo</a>
-                  <a href={demo} className="btn btn-primary" target="_blank" rel='noopener noreferrer'>Live Demo</a>
-                </div>
-              </article>
-            </a>
+                </a>
+              </div>
+              <h3>{title}</h3>
+              <div className="portfolio__item-call-to-action">
+                <a href={github} className="btn" target="_blank" rel='noopener noreferrer'>GitHub Repo</a>
+                <a href={demo} className="btn btn-primary" target="_blank" rel='noopener noreferrer'>Live Demo</a>
+              </div>
+            </article>
           ))
         }
       </div>
