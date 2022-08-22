@@ -55,11 +55,15 @@ h5 {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+}
+
+h5 {
+  font-size: 1.25rem;
 }
 
 section {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 section>h2,
@@ -69,6 +73,7 @@ section>h5 {
 }
 
 section>h2 {
+  font-size: 1.75rem;
   color: var(--color-primary);
   margin-bottom: 3rem;
 }

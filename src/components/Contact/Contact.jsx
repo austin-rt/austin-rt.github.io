@@ -58,9 +58,9 @@ export default function Contact() {
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Name" required />
-          <input type="text" name="email" placeholder="Your Email" required />
-          <textarea name="message" rows="7" placeholder="What's on your mind?" require />
+          <input type="text" name="name" placeholder="Your Name" required={true} />
+          <input type="text" name="email" placeholder="Your Email" required={true} />
+          <textarea name="message" rows="7" placeholder="What's on your mind?" required={true} />
           <button type="submit" className="btn btn-primary form__btn">Send</button>
         </form>
       </div>

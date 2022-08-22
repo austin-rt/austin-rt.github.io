@@ -16,7 +16,7 @@ const portfolioItems = [
     image: blockInvaders,
     title: 'Block Invaders',
     github: 'https://github.com/austin-rt/blockinvaders',
-    demo: 'https://austinrt.io/block-invaders'
+    demo: 'https://austinrt.io/blockinvaders/'
   }, {
     id: 3,
     image: crappleMaps,
@@ -34,16 +34,18 @@ export default function Portfolio() {
       <div className="container portfolio__container">
         {
           portfolioItems.map(({ id, image, title, github, demo }) => (
-            <article className='portfolio__item' key={id}>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-call-to-action">
-                <a href={github} className="btn" target="_blank">GitHub Repo</a>
-                <a href={demo} className="btn btn-primary" target="_blank">Live Demo</a>
-              </div>
-            </article>
+            <a href={demo} target="_blank" rel='noopener noreferrer'>
+              <article className='portfolio__item' key={id}>
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-call-to-action">
+                  <a href={github} className="btn" target="_blank" rel='noopener noreferrer'>GitHub Repo</a>
+                  <a href={demo} className="btn btn-primary" target="_blank" rel='noopener noreferrer'>Live Demo</a>
+                </div>
+              </article>
+            </a>
           ))
         }
       </div>

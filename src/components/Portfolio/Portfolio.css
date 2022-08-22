@@ -4,6 +4,10 @@
   gap: 2.5rem;
 }
 
+.portfolio__container a {
+  color: var(--color-white)
+}
+
 .portfolio__item {
   background: var(--color-bg-variant);
   padding: 1.2rem;
@@ -31,6 +35,8 @@
   gap: 1rem;
   margin-bottom: 1rem;
 }
+
+.portfolio__item-call-to-action a {}
 
 @media screen and (max-width: 1024px) {
   .portfolio__container {
