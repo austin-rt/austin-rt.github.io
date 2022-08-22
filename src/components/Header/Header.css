@@ -63,6 +63,8 @@ header {
   transform: rotate(90deg);
 }
 
+.scroll__down span {}
+
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
