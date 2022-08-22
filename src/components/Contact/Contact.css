@@ -29,6 +29,10 @@
   margin-bottom: .5rem;
 }
 
+.contact__option h5 {
+  font-size: 1rem;
+}
+
 .contact__option a {
   margin-top: .7rem;
   display: inline-block;

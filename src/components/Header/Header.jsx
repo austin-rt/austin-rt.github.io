@@ -15,9 +15,6 @@ export default function Header() {
     "an Enneagram Five.",
     "me!"];
 
-
-
-
   return (
     <header>
       <div className='container header__container'>
