@@ -40,12 +40,12 @@ header {
 
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 22rem;
+  width: 21rem;
   height: 25rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(50% - 10.5rem);
   margin-top: 4rem;
-  border-radius: 12rem 12rem 0 0;
+  border-radius: 2rem 2rem 2rem 2rem;
   overflow: hidden;
   padding: 2rem 0 0 0;
   transition: var(--transition);
@@ -63,21 +63,14 @@ header {
   transform: rotate(90deg);
 }
 
-.scroll__down span {}
-
-@media screen and (max-width: 1024px) {
-  header {
-    height: 68vh;
-  }
-}
-
 @media screen and (max-width: 600px) {
-  header {
-    height: 100vh;
-  }
 
   .header__socials,
   .scroll__down {
     display: none;
+  }
+
+  .Typewriter {
+    font-size: 1rem;
   }
 }

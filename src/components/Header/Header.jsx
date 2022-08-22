@@ -22,7 +22,6 @@ export default function Header() {
         <h1 className='header__name'>Austin Taylor</h1>
         <h5 className='text-light'>
           <Typewriter options={{ loop: true }}
-            className="typewriter"
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(75)
