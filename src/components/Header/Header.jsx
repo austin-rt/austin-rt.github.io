@@ -5,14 +5,15 @@ import CallToAction from './CallToAction';
 import HeaderSocials from './HeaderSocials';
 
 export default function Header() {
-  const strings = [
-    "and I'm ",
-    "a Full-Stack Software Developer.",
-    "Tinkerer.",
-    "Fixie Rider.",
-    "Film Photographer.",
-    "an Enneagram Five.",
-    "me!"];
+
+  // const strings = [
+  //   "and I'm ",
+  //   "a Full-Stack Software Developer.",
+  //   "Tinkerer.",
+  //   "Fixie Rider.",
+  //   "Film Photographer.",
+  //   "an Enneagram Five.",
+  //   "me!"];
 
 
 
