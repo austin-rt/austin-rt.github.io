@@ -14,10 +14,6 @@ header {
   color: var(--color-white);
 }
 
-.typewriter {
-  display: inline-block;
-}
-
 .call-to-action {
   margin-top: 2.5rem;
   display: flex;
