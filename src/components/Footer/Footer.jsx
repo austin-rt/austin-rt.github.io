@@ -26,7 +26,7 @@ export default function Footer() {
           <small>&copy; Austin Taylor 2022. All Rights Reserved</small>
         </div>
         <div>
-          <small>Page based on Egator's Example <a href="https://egattor.com/rp2447/"> React Portfolio</a></small>
+          <small className='footer__credit'>Page based on Egator's Example <a href="https://egattor.com/rp2447/" target="_blank"> React Portfolio</a></small>
         </div>
       </div>
     </footer>
