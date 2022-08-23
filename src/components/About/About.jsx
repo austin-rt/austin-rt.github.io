@@ -10,8 +10,8 @@ export default function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-image">
-            <img src={aboutMe} alt="About Image" />
+          <div className="about__me-pfp">
+            <img src={aboutMe} alt="austin taylor" />
           </div>
         </div>
 

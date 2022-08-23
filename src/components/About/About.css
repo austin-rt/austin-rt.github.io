@@ -13,21 +13,21 @@
   border-radius: 2rem;
   background: linear-gradient(45deg,
       transparent,
-      var(--color-primary),
+      var(--color-primary-alt),
       transparent);
   display: grid;
   place-items: center;
 }
 
-.about__me-image {
+.about__me-pfp {
   border-radius: 2rem;
   overflow: hidden;
-  transform: rotate(10deg);
+  transform: rotate(5deg);
   transition: var(--transition);
 }
 
-.about__me-image:hover {
-  transform: rotate(0deg);
+.about__me-pfp:hover {
+  transform: rotate(-5deg);
 }
 
 .about__cards {
