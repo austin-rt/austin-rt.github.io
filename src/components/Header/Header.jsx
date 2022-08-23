@@ -26,44 +26,12 @@ export default function Header() {
               typewriter
                 .changeDelay(75)
                 .typeString(strings[0])
-                .typeString(strings[1])
-                .pauseFor(1000)
-                .changeDeleteSpeed(20)
-                .deleteChars(strings[1].length - 5)
-                .changeDeleteSpeed(50)
-                .deleteChars(3)
-                .pauseFor(200)
-                .typeString(strings[2])
-                .pauseFor(1000)
-                .changeDeleteSpeed(20)
-                .deleteChars(strings[2].length - 3)
-                .changeDeleteSpeed(50)
-                .deleteChars(3)
-                .pauseFor(200)
-                .typeString(strings[3])
-                .pauseFor(1000)
-                .changeDeleteSpeed(20)
-                .deleteChars(strings[3].length - 3)
-                .changeDeleteSpeed(50)
-                .deleteChars(3)
-                .pauseFor(200)
-                .typeString(strings[4])
-                .pauseFor(1000)
-                .changeDeleteSpeed(20)
-                .deleteChars(strings[4].length - 1)
-                .changeDeleteSpeed(50)
-                .deleteChars(3)
-                .pauseFor(100)
-                .typeString(strings[5])
-                .pauseFor(1000)
-                .changeDeleteSpeed(20)
-                .deleteChars(strings[5].length - 3)
-                .changeDeleteSpeed(50)
-                .deleteChars(3)
-                .pauseFor(200)
-                .typeString(strings[6])
-                .pauseFor(2000)
-                .deleteAll()
+                .typeString(strings[1]).pauseFor(1000).changeDeleteSpeed(20).deleteChars(strings[1].length - 5).changeDeleteSpeed(50).deleteChars(3).pauseFor(200)
+                .typeString(strings[2]).pauseFor(1000).changeDeleteSpeed(20).deleteChars(strings[2].length - 3).changeDeleteSpeed(50).deleteChars(3).pauseFor(200)
+                .typeString(strings[3]).pauseFor(1000).changeDeleteSpeed(20).deleteChars(strings[3].length - 3).changeDeleteSpeed(50).deleteChars(3).pauseFor(200)
+                .typeString(strings[4]).pauseFor(1000).changeDeleteSpeed(20).deleteChars(strings[4].length - 1).changeDeleteSpeed(50).deleteChars(3).pauseFor(100)
+                .typeString(strings[5]).pauseFor(1000).changeDeleteSpeed(20).deleteChars(strings[5].length - 3).changeDeleteSpeed(50).deleteChars(3).pauseFor(200)
+                .typeString(strings[6]).pauseFor(2000).deleteAll()
                 .start();
             }} />
 
@@ -74,7 +42,8 @@ export default function Header() {
           <img src={headshot} alt="me" />
         </div>
         <div className="scroll__down__container">
-          <a href="#contact" className='scroll__down'>
+          <a href="#portfolio" className='scroll__down__portfolio scroll__down'><h3>Portfolio</h3></a>
+          <a href="#portfolio" className='scroll__down scroll__down__arrows'>
             <span>{`>`}</span>
             <span>{`>`}</span>
             <span>{`>`}</span>

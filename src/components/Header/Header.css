@@ -41,7 +41,7 @@ header {
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 21rem;
-  height: 25rem;
+  height: 24.25rem;
   position: absolute;
   left: calc(50% - 10.5rem);
   margin-top: 4rem;
@@ -64,11 +64,50 @@ header {
   transform: rotate(90deg);
 }
 
-.scroll__down span:nth-child(even) {
+.scroll__down__arrows span:nth-child(even) {
   color: var(--color-light)
 }
 
+.scroll__down__arrows span:nth-child(odd) {
+  color: var(--color-primary)
+}
+
+.scroll__down__portfolio {
+  color: var(--color-primary);
+  position: absolute;
+  bottom: 7.4rem;
+  right: -3.5rem;
+}
+
+.scroll__down__portfolio>h3 {
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 75vh;
+  }
+
+  .header__socials {
+    left: 0;
+    bottom: 9.2rem;
+  }
+
+  .scroll__down {
+    bottom: 11.6rem;
+  }
+
+  .scroll__down__portfolio {
+    bottom: 11.7rem;
+    right: -3.5rem;
+  }
+}
+
 @media screen and (max-width: 600px) {
+
+  header {
+    height: 90vh;
+  }
 
   .header__socials,
   .scroll__down {
