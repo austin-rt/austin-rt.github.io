@@ -2,7 +2,7 @@ import React from 'react';
 import './Experience.css';
 import { DiHtml5, DiCss3, DiJavascript, DiReact, DiPython } from 'react-icons/di';
 import { RiVuejsFill } from 'react-icons/ri';
-import { SiDjango, SiPostgresql, SiMongodb } from 'react-icons/si';
+import { SiDjango, SiPostgresql, SiMongodb, SiExpress } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 
 export default function Experience() {
@@ -54,6 +54,11 @@ export default function Experience() {
             </article>
 
             <article className="experience__details">
+              <SiExpress className='experience__details-icon icon' />
+              <h4>Express.js</h4>
+            </article>
+
+            <article className="experience__details">
               <SiPostgresql className='experience__details-icon icon' />
               <h4>PostgreSQL</h4>
             </article>
@@ -63,7 +68,7 @@ export default function Experience() {
               <h4>MongoDB</h4>
             </article>
 
-            <article className="experience__details">
+            {/* <article className="experience__details">
               <SiDjango className='experience__details-icon icon' />
               <h4>Django</h4>
             </article>
@@ -71,7 +76,7 @@ export default function Experience() {
             <article className="experience__details">
               <DiPython className='experience__details-icon icon' />
               <h4>Python</h4>
-            </article>
+            </article> */}
 
           </div>
 

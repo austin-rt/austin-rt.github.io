@@ -12,7 +12,7 @@
 }
 
 .contact__option {
-  background: var(--color-bg-variant);
+  background: var(--color-bg-alt);
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
@@ -22,7 +22,7 @@
 
 .contact__option:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-primary-alt);
 }
 
 .contact__option-icon {
@@ -56,7 +56,7 @@ textarea {
   padding: 1.5rem;
   border-radius: .5rem;
   background: transparent;
-  border: 2px solid var(--color-primary-variant);
+  border: 2px solid var(--color-primary-alt);
   resize: none;
   color: var(--color-white);
   font-family: "Poppins", sans-serif;

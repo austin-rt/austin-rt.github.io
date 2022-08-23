@@ -38,7 +38,7 @@
 }
 
 .about__card {
-  background: var(--color-bg-variant);
+  background: var(--color-bg-alt);
   border: 1px solid transparent;
   border-radius: 1rem;
   padding: 2rem;
@@ -47,7 +47,7 @@
 
 .about__card:hover {
   background: transparent;
-  border-color: var(--color-primary-variant);
+  border-color: var(--color-primary-alt);
   cursor: default;
 }
 
