@@ -22,7 +22,12 @@ export default function Footer() {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Austin Taylor 2022. All Rights Reserved</small>
+        <div>
+          <small>&copy; Austin Taylor 2022. All Rights Reserved</small>
+        </div>
+        <div>
+          <small>Page based on Egator's Example <a href="https://egattor.com/rp2447/"> React Portfolio</a></small>
+        </div>
       </div>
     </footer>
   );
