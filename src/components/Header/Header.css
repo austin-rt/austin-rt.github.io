@@ -55,10 +55,6 @@ header {
   transform: scale(1.05);
 }
 
-.scroll__down__container {
-  transition: var(--transition);
-}
-
 .scroll__down {
   font-size: 1.5rem;
   position: absolute;
@@ -67,12 +63,18 @@ header {
   transform: rotate(90deg);
 }
 
-.scroll__down__arrows span:nth-child(even) {
-  color: var(--color-light)
+.scroll__down span:nth-child(even) {
+  color: var(--color-light);
+  transition: var(--transition);
 }
 
-.scroll__down__arrows span:nth-child(odd) {
-  color: var(--color-primary)
+.scroll__down span:nth-child(odd) {
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+.scroll__down span:hover {
+  color: var(--color-white);
 }
 
 .scroll__down__portfolio {
@@ -83,7 +85,14 @@ header {
 }
 
 .scroll__down__portfolio>h3 {
+  transition: var(--transition);
   color: var(--color-primary);
+}
+
+.scroll__down__portfolio>h3:hover {
+  color: var(--color-white);
+  transform: scale(1.1);
+  transform: translateX(1rem)
 }
 
 @media screen and (max-width: 1024px) {
