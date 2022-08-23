@@ -73,8 +73,20 @@ export default function Header() {
         <div className='me'>
           <img src={headshot} alt="me" />
         </div>
-
-        <a href="#contact" className='scroll__down'>Scroll Down <span className='text-light'>{`>>>`}</span></a>
+        <div className="scroll__down__container">
+          <a href="#contact" className='scroll__down'>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+            <span>{`>`}</span>
+          </a>
+        </div>
       </div>
     </header>
   );
