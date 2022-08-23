@@ -1,9 +1,6 @@
 import React from 'react';
 import './About.css';
 import aboutMe from '../../assets/about-me.png';
-import { FaAward } from 'react-icons/fa';
-import { FiUsers } from 'react-icons/fi';
-import { VscFolderLibrary } from 'react-icons/vsc';
 
 export default function About() {
   return (
@@ -24,7 +21,9 @@ export default function About() {
           <p>I am a bridger of gaps. Whether Digital, IRL, or Web3, I have always had a passion for connecting my friends with my friends. Few things in life are as satisfying as being "the guy who knows the perfect person for that".</p>
           <p>After a successful tenure in the film industry, I am further cultivating my curiosity and creative spirit by crafting code and connecting communities.
           </p>
-          <a href="#contact" className="btn btn-primary">Say Hi</a>
+          <div className='about__contact-btn-container'>
+            <a href="#contact" className="btn btn-primary about__contact-btn">Say Hi</a>
+          </div>
         </div>
       </div>
     </section>

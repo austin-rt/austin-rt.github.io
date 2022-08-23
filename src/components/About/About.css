@@ -10,7 +10,6 @@
 
 .about__me {
   width: 100%;
-  aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg,
       transparent,
@@ -69,6 +68,12 @@
   color: var(--color-light)
 }
 
+.about__contact-btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
 @media screen and (max-width: 1024px) {
   .about__container {
     grid-template-columns: 1fr;
@@ -87,7 +92,7 @@
 
 @media screen and (max-width: 600px) {
   .about__me {
-    width: 65%;
+    width: 80%;
     margin: 0 auto 3rem;
   }
 
@@ -102,5 +107,11 @@
 
   .about__content p {
     margin: 1.5rem 0;
+  }
+
+  .about__contact-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }

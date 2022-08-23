@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import headshot from '../../assets/headshot-no-bg.png';
+import pfp from '../../assets/headshot-no-bg.png';
 import CallToAction from './CallToAction';
 import HeaderSocials from './HeaderSocials';
 import Typewriter from 'typewriter-effect';
@@ -38,8 +38,8 @@ export default function Header() {
         </h5>
         <CallToAction />
         <HeaderSocials />
-        <div className='me'>
-          <img src={headshot} alt="me" />
+        <div className='pfp'>
+          <img src={pfp} alt="austin talor" />
         </div>
         <div className="scroll__down__container">
           <a href="#portfolio" className='scroll__down__portfolio scroll__down'><h3>Portfolio</h3></a>
