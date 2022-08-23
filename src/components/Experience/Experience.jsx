@@ -18,22 +18,22 @@ export default function Experience() {
 
             <article className="experience__details">
               <DiReact className='experience__details-icon icon' />
-              <h4>React.js</h4>
+              <h4 className='experience__details-text'>React.js</h4>
             </article>
 
             <article className="experience__details">
               <DiJavascript className='experience__details-icon icon' />
-              <h4>JavaScipt</h4>
+              <h4 className='experience__details-text'>JavaScipt</h4>
             </article>
 
             <article className="experience__details">
               <DiHtml5 className='experience__details-icon icon' />
-              <h4>HTML</h4>
+              <h4 className='experience__details-text'>HTML</h4>
             </article>
 
             <article className="experience__details">
               <DiCss3 className='experience__details-icon icon' />
-              <h4>CSS</h4>
+              <h4 className='experience__details-text'>CSS</h4>
             </article>
 
             <article className="experience__details">
@@ -50,22 +50,22 @@ export default function Experience() {
 
             <article className="experience__details">
               <FaNodeJs className='experience__details-icon icon' />
-              <h4>Node.js</h4>
+              <h4 className='experience__details-text'>Node.js</h4>
             </article>
 
             <article className="experience__details">
               <SiExpress className='experience__details-icon icon' />
-              <h4>Express.js</h4>
+              <h4 className='experience__details-text'>Express.js</h4>
             </article>
 
             <article className="experience__details">
               <SiPostgresql className='experience__details-icon icon' />
-              <h4>PostgreSQL</h4>
+              <h4 className='experience__details-text'>PostgreSQL</h4>
             </article>
 
             <article className="experience__details">
               <SiMongodb className='experience__details-icon icon' />
-              <h4>MongoDB</h4>
+              <h4 className='experience__details-text'>MongoDB</h4>
             </article>
 
             {/* <article className="experience__details">

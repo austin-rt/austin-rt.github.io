@@ -39,6 +39,12 @@
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+  align-self: center;
+  justify-self: center;
+}
+
+.experience__details-text {
+  margin-top: 6px;
 }
 
 @media screen and (max-width: 1024px) {
