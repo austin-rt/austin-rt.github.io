@@ -49,7 +49,9 @@ export default function Portfolio() {
                   <img src={image} alt={title} />
                 </a>
               </div>
-              <h3>{title}</h3>
+              <div className="portfolio__item-title">
+                <h3>{title}</h3>
+              </div>
               <div className='portfolio__item__stack-icon__container'>
 
                 {stack.map((icon, index) => (

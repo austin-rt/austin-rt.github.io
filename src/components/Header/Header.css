@@ -12,6 +12,11 @@ header {
 
 .header__name {
   color: var(--color-white);
+  transition: var(--transition)
+}
+
+.header__name:hover {
+  color: var(--color-primary);
 }
 
 .call-to-action {
@@ -38,7 +43,7 @@ header {
   background: var(--color-primary);
 }
 
-.pfp {
+.pfp-container {
   background: linear-gradient(var(--color-primary), var(--color-primary-alt), transparent);
   width: 25rem;
   margin: 4rem auto 0 auto;
@@ -48,7 +53,16 @@ header {
   transition: var(--transition);
 }
 
+.pfp {
+  width: 100%;
+  transition: var(--transition);
+}
+
 .pfp:hover {
+  transform: scale(1.05);
+}
+
+.pfp-container:hover {
   transform: scale(1.05);
 }
 

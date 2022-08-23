@@ -10,6 +10,7 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  margin-bottom: 1rem;
 }
 
 .portfolio__item:hover {
@@ -22,13 +23,18 @@
   overflow: hidden;
 }
 
+.portfolio__item-title {
+  display: flex;
+  justify-content: center;
+}
+
 .portfolio__item h3 {
-  margin: 1.2rem 0 1rem;
+  margin: 1.2rem 0 0;
 }
 
 .portfolio__item__stack-icon__container {
   font-size: .75rem;
-  margin: 1.2rem 0 1rem;
+  margin: .5rem 0 .5rem;
 
 }
 

@@ -38,8 +38,8 @@ export default function Header() {
         </h5>
         <CallToAction />
         <HeaderSocials />
-        <div className='pfp'>
-          <img src={pfp} alt="austin talor" />
+        <div className='pfp-container'>
+          <img src={pfp} className="pfp" alt="austin talor" />
         </div>
         <div className="scroll__down__container">
           <a href="#portfolio" className='scroll__down__portfolio scroll__down'><h3>Portfolio</h3></a>
