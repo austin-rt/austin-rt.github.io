@@ -45,7 +45,7 @@ header {
   position: absolute;
   left: calc(50% - 10.5rem);
   margin-top: 4rem;
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-radius: 2rem;
   overflow: hidden;
   padding: 2rem 0 0 0;
   transition: var(--transition);
@@ -55,6 +55,9 @@ header {
   transform: scale(1.05);
 }
 
+.scroll__down__container {
+  transition: var(--transition);
+}
 
 .scroll__down {
   font-size: 1.5rem;
