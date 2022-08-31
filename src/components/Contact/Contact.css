@@ -31,6 +31,11 @@
 
 .contact__option h5 {
   font-size: .75rem;
+  color: var(--color-light)
+}
+
+.contact__option h4{
+  color: var(--color-white)
 }
 
 .contact__option a {

@@ -1,7 +1,6 @@
 nav {
   background: rgba(0, 0, 0, .3);
   width: max-content;
-  display: block;
   padding: 0.7rem 1.7rem;
   z-index: 2;
   position: fixed;
@@ -14,17 +13,35 @@ nav {
   backdrop-filter: blur(15px);
 }
 
+.nav__container{
+text-align: center;
+justify-content: center;
+width: 3.5rem;
+height: 3rem;
+}
+
 .nav__icon {
-  font-size: 1.2rem
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 auto;
 }
 
 nav a {
+  width: 2rem;
+  height: 2rem;
   background: transparent;
-  padding: .9rem;
+  padding: .25rem;
   border-radius: 50%;
   display: flex;
   color: var(--color-light);
   font-size: 1rem;
+  margin: 0 auto;
+}
+
+.nav__text {
+  font-size: .65rem;
+  text-align: center;
+  color: var(--color-light)
 }
 
 nav a:hover {

@@ -10,8 +10,10 @@ export default function About() {
 
       <div className="container about__container">
         <div className="about__me">
-          <div className="about__me-pfp">
-            <img src={aboutMe} alt="austin taylor" />
+          <div className="about__me-pfp-container">
+            <div className="about__me-pfp">
+              <img src={aboutMe} alt="austin taylor" />
+            </div>
           </div>
         </div>
 
@@ -21,11 +23,11 @@ export default function About() {
           <p>I am a bridger of gaps. Whether Digital, IRL, or Web3, I have always had a passion for connecting my friends with my friends. Few things in life are as satisfying as being "the guy who knows the perfect person for that".</p>
           <p>After a successful tenure in the film industry, I am further cultivating my curiosity and creative spirit by crafting code and connecting communities.
           </p>
+        </div>
+      </div>
           <div className='about__contact-btn-container'>
             <a href="#contact" className="btn btn-primary about__contact-btn">Say Hi</a>
           </div>
-        </div>
-      </div>
     </section>
   );
 };

@@ -15,11 +15,26 @@ export default function Nav() {
 
   return (
     <nav>
-      <a href="#" className={activeNav === '#' ? 'active nav__icon' : 'nav__icon'}><AiTwotoneHome /></a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active nav__icon' : 'nav__icon'}><AiOutlineUser /></a>
-      <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active nav__icon' : 'nav__icon'}><BsFillBriefcaseFill /></a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active nav__icon' : 'nav__icon'}><BiBook /></a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active nav__icon' : 'nav__icon'}><AiTwotoneMail /></a>
+      <div className='nav__container'>
+        <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome className='nav__icon' /></a>
+          <p className='nav__text'>Home</p>
+      </div>
+      <div className='nav__container'>
+        <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser className='nav__icon' /></a>
+          <p className='nav__text'>About</p>
+      </div>
+      <div className='nav__container'>
+        <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><BsFillBriefcaseFill className='nav__icon' /></a>
+          <p className='nav__text'>Portfolio</p>
+      </div>
+      <div className='nav__container'>
+        <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook className='nav__icon' /></a>
+          <p className='nav__text'>Experience</p>
+      </div>
+      <div className='nav__container'>
+        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiTwotoneMail className='nav__icon' /></a>
+          <p className='nav__text'>Contact</p>
+      </div>
     </nav>
   );
 }

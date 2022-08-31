@@ -8,7 +8,7 @@
   gap: 15%;
 }
 
-.about__me {
+.about__me-pfp-container{
   width: 100%;
   border-radius: 2rem;
   background: linear-gradient(45deg,
@@ -17,6 +17,11 @@
       transparent);
   display: grid;
   place-items: center;
+}
+
+.about__me {
+display: flex;
+align-items: center;
 }
 
 .about__me-pfp {
@@ -30,37 +35,8 @@
   transform: rotate(-5deg);
 }
 
-.about__cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.about__card {
-  background: var(--color-bg-alt);
-  border: 1px solid transparent;
-  border-radius: 1rem;
-  padding: 2rem;
-  text-align: center;
-}
-
-.about__card:hover {
-  background: transparent;
-  border-color: var(--color-primary-alt);
-  cursor: default;
-}
-
 .about__icon {
   margin-bottom: 1rem;
-}
-
-.about__card h5 {
-  font-size: .95rem;
-}
-
-.about__card small {
-  font-size: .7rem;
-  color: var(--color-light);
 }
 
 .about__content p {
@@ -69,7 +45,7 @@
 }
 
 .about__contact-btn-container {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: flex-end;
 }

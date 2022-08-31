@@ -48,6 +48,12 @@
   margin-top: 6px;
 }
 
+.framework{
+  text-align: center;
+  margin: 0 auto;
+  font-size: .65rem;
+}
+
 @media screen and (max-width: 1024px) {
   .experience__container {
     grid-template-columns: 1fr;

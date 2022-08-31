@@ -60,15 +60,19 @@ export default function Experience() {
 
             <article className="experience__details">
               <SiPostgresql className='experience__details-icon icon' />
-              <h4 className='experience__details-text'>PostgreSQL</h4>
+              <h4 className='experience__details-text'>PostgreSQL
+              <p className="framework">Sequelize</p>
+              </h4>
             </article>
 
             <article className="experience__details">
               <SiMongodb className='experience__details-icon icon' />
-              <h4 className='experience__details-text'>MongoDB</h4>
+              <h4 className='experience__details-text'>MongoDB
+              <p className="framework">Mongoose</p>
+                 </h4>
             </article>
 
-            {/* <article className="experience__details">
+            <article className="experience__details">
               <SiDjango className='experience__details-icon icon' />
               <h4>Django</h4>
             </article>
@@ -76,7 +80,7 @@ export default function Experience() {
             <article className="experience__details">
               <DiPython className='experience__details-icon icon' />
               <h4>Python</h4>
-            </article> */}
+            </article>
 
           </div>
 

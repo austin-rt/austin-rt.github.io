@@ -37,21 +37,21 @@ export default function Contact() {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon icon" />
             <h4>Email</h4>
-            <h5>me@austinrt.io</h5>
+
             <a href="mailto:me@austinrt.io" target="_blank">Drop Me A Line</a>
           </article>
 
           <article className="contact__option">
             <ImLinkedin className="contact__option-icon icon" />
             <h4>LinkedIn</h4>
-            <h5>linkedin.com/in/austinrt</h5>
+
             <a href="https://www.linkedin.com/li/austinrt" target="_blank">Send Me A Message</a>
           </article>
 
           <article className="contact__option">
             <FiPhoneCall className="contact__option-icon icon" />
-            <h4>Call</h4>
-            <h5>(229) 221-9699</h5>
+            <h4>Phone</h4>
+
             <a href="tel:+12292219699" target="_blank">Ring Me</a>
           </article>
 
