@@ -16,23 +16,23 @@ export default function Nav() {
   return (
     <nav>
       <div className='nav__container'>
-        <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome className='nav__icon' /></a>
+        <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome className='nav__icon' title="home"/></a>
           <p className='nav__text'>Home</p>
       </div>
       <div className='nav__container'>
-        <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser className='nav__icon' /></a>
+        <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser className='nav__icon' title="about"/></a>
           <p className='nav__text'>About</p>
       </div>
       <div className='nav__container'>
-        <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><BsFillBriefcaseFill className='nav__icon' /></a>
+        <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><BsFillBriefcaseFill className='nav__icon' title="portfolio"/></a>
           <p className='nav__text'>Portfolio</p>
       </div>
       <div className='nav__container'>
-        <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook className='nav__icon' /></a>
+        <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook className='nav__icon' title="experience"/></a>
           <p className='nav__text'>Experience</p>
       </div>
       <div className='nav__container'>
-        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiTwotoneMail className='nav__icon' /></a>
+        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiTwotoneMail className='nav__icon' title="contact"/></a>
           <p className='nav__text'>Contact</p>
       </div>
     </nav>

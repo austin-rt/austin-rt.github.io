@@ -17,8 +17,8 @@ export default function Footer() {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/austinrt" target="_blank" className='icon'><BsLinkedin /></a>
-        <a href="https://www.github.com/austin-rt" target="_blank" className='icon'><BsGithub /></a>
+        <a href="https://www.linkedin.com/in/austinrt" title="LinkedIn Profile" target="_blank" className='icon'><BsLinkedin /></a>
+        <a href="https://www.github.com/austin-rt" title="GitHub Page" target="_blank" className='icon'><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">

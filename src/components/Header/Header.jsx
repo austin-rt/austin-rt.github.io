@@ -19,7 +19,7 @@ export default function Header() {
         </div>
         <div className="scroll__down__container">
           <a href="#portfolio" className='scroll__down__portfolio scroll__down'><h3>Portfolio</h3></a>
-          <a href="#portfolio" className='scroll__down scroll__down__arrows'>
+          <a href="#portfolio" className='scroll__down scroll__down__arrows' title="scroll down arrows">
             <span>{`>`}</span>
             <span>{`>`}</span>
             <span>{`>`}</span>
