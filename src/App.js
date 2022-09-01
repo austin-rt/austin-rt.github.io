@@ -1,4 +1,4 @@
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import './index.css'
 
 import Header from './components/Header/Header'
@@ -10,6 +10,14 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 
 function App() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }, [])
+
   const home = useRef(null)
   const about = useRef(null)
   const portfolio = useRef(null)

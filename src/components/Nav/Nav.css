@@ -18,6 +18,7 @@ text-align: center;
 justify-content: center;
 width: 3.5rem;
 height: 3rem;
+cursor: pointer;
 }
 
 .nav__icon {
