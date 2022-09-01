@@ -72,6 +72,7 @@ header {
   right: -2.5rem;
   bottom: 7.2rem;
   transform: rotate(90deg);
+  cursor: pointer;
 }
 
 .scroll__down span:nth-child(even) {

@@ -26,7 +26,7 @@ height: 3rem;
   margin: 0 auto;
 }
 
-nav a {
+.nav__link {
   width: 2rem;
   height: 2rem;
   background: transparent;
@@ -44,11 +44,11 @@ nav a {
   color: var(--color-light)
 }
 
-nav a:hover {
+.nav__link:hover {
   background: rgba(0, 0, 0, .3)
 }
 
-nav a.active {
+.nav__link.active {
   background: var(--color-primary);
   color: var(--color-bg)
 }

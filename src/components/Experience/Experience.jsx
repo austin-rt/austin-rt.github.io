@@ -2,12 +2,13 @@ import React from 'react';
 import './Experience.css';
 import { DiHtml5, DiCss3, DiJavascript, DiReact, DiPython } from 'react-icons/di';
 import { RiVuejsFill } from 'react-icons/ri';
-import { SiDjango, SiPostgresql, SiMongodb, SiExpress } from 'react-icons/si';
+import { SiDjango, SiPostgresql, SiMongodb, SiExpress, SiSequelize } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
+import { MdOutlineLibraryBooks } from 'react-icons/md';
 
-export default function Experience() {
+export default function Experience({experience}) {
   return (
-    <section id='experience'>
+    <section id='experience' ref={experience}>
       <h5>Skills</h5>
       <h2>My Expereince</h2>
 
@@ -60,16 +61,23 @@ export default function Experience() {
 
             <article className="experience__details">
               <SiPostgresql className='experience__details-icon icon' />
-              <h4 className='experience__details-text'>PostgreSQL
-              <p className="framework">Sequelize</p>
+              <h4 className='experience__details-text'>PostgreSQL</h4>
+            </article>
+
+            <article className="experience__details">
+              <SiSequelize className='experience__details-icon icon' />
+              <h4 className='experience__details-text'>Sequelize
               </h4>
             </article>
 
             <article className="experience__details">
               <SiMongodb className='experience__details-icon icon' />
-              <h4 className='experience__details-text'>MongoDB
-              <p className="framework">Mongoose</p>
-                 </h4>
+              <h4 className='experience__details-text'>MongoDB</h4>
+            </article>
+
+            <article className="experience__details">
+              <MdOutlineLibraryBooks className='experience__details-icon icon' />
+              <h4 className='experience__details-text'>Mongoose</h4>
             </article>
 
             <article className="experience__details">

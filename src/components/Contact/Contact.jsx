@@ -6,7 +6,7 @@ import { MdOutlineEmail } from 'react-icons/md';
 import { ImLinkedin } from 'react-icons/im';
 import { FiPhoneCall } from 'react-icons/fi';
 
-export default function Contact() {
+export default function Contact({contact}) {
 
   const form = useRef();
 
@@ -25,7 +25,7 @@ export default function Contact() {
 
 
   return (
-    <section id='contact'>
+    <section id='contact' ref={contact}>
 
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
@@ -38,21 +38,21 @@ export default function Contact() {
             <MdOutlineEmail className="contact__option-icon icon" />
             <h4>Email</h4>
 
-            <a href="mailto:me@austinrt.io" target="_blank">Drop Me A Line</a>
+            <a href="mailto:me@austinrt.io" target="_blank" rel='noopener noreferrer'>Drop Me A Line</a>
           </article>
 
           <article className="contact__option">
             <ImLinkedin className="contact__option-icon icon" />
             <h4>LinkedIn</h4>
 
-            <a href="https://www.linkedin.com/li/austinrt" target="_blank">Send Me A Message</a>
+            <a href="https://www.linkedin.com/li/austinrt" target="_blank" rel='noopener noreferrer'>Send Me A Message</a>
           </article>
 
           <article className="contact__option">
             <FiPhoneCall className="contact__option-icon icon" />
             <h4>Phone</h4>
 
-            <a href="tel:+12292219699" target="_blank">Ring Me</a>
+            <a href="tel:+12292219699" target="_blank" rel='noopener noreferrer'>Ring Me</a>
           </article>
 
         </div>

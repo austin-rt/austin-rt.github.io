@@ -10,29 +10,44 @@ import { BiBook } from 'react-icons/bi';
 import { BsFillBriefcaseFill } from 'react-icons/bs';
 
 
-export default function Nav() {
+export default function Nav({home, about, portfolio, experience, contact, scrollTo}) {
   const [activeNav, setActiveNav] = useState('#');
 
   return (
     <nav>
       <div className='nav__container'>
-        <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiTwotoneHome className='nav__icon' title="home"/></a>
+        <div onClick={() => {
+          setActiveNav('#')
+          scrollTo(home)
+          }} className={activeNav === '#' ? 'active nav__link' : 'nav__link'}><AiTwotoneHome className='nav__icon' title="home"/></div>
           <p className='nav__text'>Home</p>
       </div>
       <div className='nav__container'>
-        <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser className='nav__icon' title="about"/></a>
+        <div onClick={() => {
+          setActiveNav('#about')
+          scrollTo(about)
+          }} className={activeNav === '#about' ? 'active nav__link' : 'nav__link'}><AiOutlineUser className='nav__icon' title="about"/></div>
           <p className='nav__text'>About</p>
       </div>
       <div className='nav__container'>
-        <a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><BsFillBriefcaseFill className='nav__icon' title="portfolio"/></a>
+        <div onClick={() => {
+          setActiveNav('#portfolio')
+          scrollTo(portfolio)
+      }} className={activeNav === '#portfolio' ? 'active nav__link' : 'nav__link'}><BsFillBriefcaseFill className='nav__icon' title="portfolio"/></div>
           <p className='nav__text'>Portfolio</p>
       </div>
       <div className='nav__container'>
-        <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook className='nav__icon' title="experience"/></a>
+        <div onClick={() => {
+          setActiveNav('#experience')
+          scrollTo(experience)
+      }} className={activeNav === '#experience' ? 'active nav__link' : 'nav__link'}><BiBook className='nav__icon' title="experience"/></div>
           <p className='nav__text'>Experience</p>
       </div>
       <div className='nav__container'>
-        <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><AiTwotoneMail className='nav__icon' title="contact"/></a>
+        <div onClick={() => {
+          setActiveNav('#contact')
+          scrollTo(contact)
+        }} className={activeNav === '#contact' ? 'active nav__link' : 'nav__link'}><AiTwotoneMail className='nav__icon' title="contact"/></div>
           <p className='nav__text'>Contact</p>
       </div>
     </nav>

@@ -35,9 +35,9 @@ const portfolioItems = [
   }
 ];
 
-export default function Portfolio() {
+export default function Portfolio({portfolio}) {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' ref={portfolio}>
       <h5>Recent Projects</h5>
       <h2>My Portoflio</h2>
       <div className="container portfolio__container">

@@ -2,9 +2,9 @@ import React from 'react';
 import './About.css';
 import aboutMe from '../../assets/about-me.png';
 
-export default function About() {
+export default function About({about, contact, scrollTo}) {
   return (
-    <section id='about'>
+    <section id='about' ref={about}>
       <h5>Get To Know Me</h5>
       <h2>A Little About Me</h2>
 
@@ -26,7 +26,7 @@ export default function About() {
         </div>
       </div>
           <div className='about__contact-btn-container'>
-            <a href="#contact" className="btn btn-primary about__contact-btn">Say Hi</a>
+            <div onClick={()=>{scrollTo(contact)}} className="btn btn-primary about__contact-btn">Say Hi</div>
           </div>
     </section>
   );

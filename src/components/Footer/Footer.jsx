@@ -3,22 +3,22 @@ import './Footer.css';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsGithub } from 'react-icons/bs';
 
-export default function Footer() {
+export default function Footer({home, about, portfolio, experience, contact, scrollTo}) {
   return (
     <footer>
-      <a href="#" className='footer__logo'>austinrt.io</a>
+      <h4 onClick={()=>{scrollTo(home)}} className='footer__logo'>austinrt.io</h4>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#portfolio">My Portfolio</a></li>
-        <li><a href="#experience">My Experience</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li onClick={()=>{scrollTo(home)}} >Home</li>
+        <li onClick={()=>{scrollTo(about)}}>About Me</li>
+        <li onClick={()=>{scrollTo(portfolio)}}>My Portfolio</li>
+        <li onClick={()=>{scrollTo(experience)}}>My Experience</li>
+        <li onClick={()=>{scrollTo(contact)}}>Contact Me</li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/austinrt" title="LinkedIn Profile" target="_blank" className='icon'><BsLinkedin /></a>
-        <a href="https://www.github.com/austin-rt" title="GitHub Page" target="_blank" className='icon'><BsGithub /></a>
+        <a href="https://www.linkedin.com/in/austinrt" title="LinkedIn Profile" target="_blank" className='icon' rel='noopener noreferrer'><BsLinkedin /></a>
+        <a href="https://www.github.com/austin-rt" title="GitHub Page" target="_blank" className='icon' rel='noopener noreferrer'><BsGithub /></a>
       </div>
 
       <div className="footer__copyright">
@@ -26,7 +26,7 @@ export default function Footer() {
           <small>&copy; Austin Taylor 2022.</small>
         </div>
         <div>
-          <small>Page design based on Egator's Example <a href="https://egattor.com/rp2447/" target="_blank"> React Portfolio</a></small>
+          <small>Page design based on Egator's Example <a href="https://egattor.com/rp2447/" target="_blank" rel='noopener noreferrer'> React Portfolio</a></small>
         </div>
       </div>
     </footer>
