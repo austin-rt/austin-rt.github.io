@@ -33,6 +33,10 @@ footer li, footer h4 {
   margin-bottom: 2rem;
 }
 
+a {
+  color: var(--color-bg)
+}
+
 .footer__socials a {
   background: var(--color-bg);
   color: var(--color-white);
