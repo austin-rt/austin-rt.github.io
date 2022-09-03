@@ -1,3 +1,7 @@
+article>a{
+  color: var(--color-primary)
+}
+
 .container.contact__container {
   width: 58%;
   display: grid;
@@ -27,11 +31,6 @@
 
 .contact__option-icon {
   margin-bottom: .5rem;
-}
-
-.contact__option h5 {
-  font-size: .75rem;
-  color: var(--color-light)
 }
 
 .contact__option h4{
