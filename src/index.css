@@ -122,6 +122,11 @@ img {
 .icon {
   color: var(--color-primary);
   font-size: 2rem;
+  transition: var(--transition);
+}
+
+.icon:hover{
+  color: var(--color-white)
 }
 
 @media screen and (max-width: 1024px) {
