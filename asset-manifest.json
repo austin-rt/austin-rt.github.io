@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.93780eb0.css",
-    "main.js": "/static/js/main.148b61d5.js",
+    "main.js": "/static/js/main.b267bb6e.js",
     "static/media/crapple-maps-1.png": "/static/media/crapple-maps-1.cc5fc94f53cce459e220.png",
     "static/media/about-me.png": "/static/media/about-me.6fa668e949f9d471d6d7.png",
     "static/media/rated-our-2.png": "/static/media/rated-our-2.7a2f54b4c40c86d49326.png",
@@ -13,10 +13,10 @@
     "static/media/block-invaders-4.png": "/static/media/block-invaders-4.9cf19051867411af18d6.png",
     "index.html": "/index.html",
     "main.93780eb0.css.map": "/static/css/main.93780eb0.css.map",
-    "main.148b61d5.js.map": "/static/js/main.148b61d5.js.map"
+    "main.b267bb6e.js.map": "/static/js/main.b267bb6e.js.map"
   },
   "entrypoints": [
     "static/css/main.93780eb0.css",
-    "static/js/main.148b61d5.js"
+    "static/js/main.b267bb6e.js"
   ]
 }
