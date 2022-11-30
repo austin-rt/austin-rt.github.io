@@ -13,6 +13,7 @@ import {
   SiHeroku,
   SiRailway,
   SiNetlify,
+  SiVercel,
 } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { TbBrandTailwind } from 'react-icons/tb';
@@ -33,10 +34,17 @@ export const portfolioItems = [
     image: brtr,
     title: 'brtr',
     github: 'https://github.com/austin-rt/brtr-frontend',
-    demo: 'http://brtr-app.herokuapp.com/',
+    demo: 'https://brtr.vercel.app/',
     oneline:
       'brtr functions as a simulated buy / sell platform for any type of item. You can tell how cool and hip and 2010s we are by the lack of vowels in our name. Users can browse as a guest or create an account for the full experience. With an account users will be able to list and sell thier items and buy other users items. A post MVP version sees reviews for both users and items, credit card processing, user and product reviews, and a barter system to trade items instead of using money.',
-    stack: [<SiPostgresql />, <SiExpress />, <DiReact />, <FaNodeJs />, <SiHeroku />],
+    stack: [
+      <SiPostgresql />,
+      <SiExpress />,
+      <DiReact />,
+      <FaNodeJs />,
+      <SiVercel />,
+      <SiRailway />,
+    ],
   },
   {
     id: 2,
@@ -52,8 +60,8 @@ export const portfolioItems = [
       <DiReact />,
       <FaNodeJs />,
       <TbBrandTailwind />,
-      <SiRailway />,
       <SiNetlify />,
+      <SiRailway />,
     ],
   },
   {
@@ -61,10 +69,17 @@ export const portfolioItems = [
     image: ratedOur,
     title: 'Rated Our',
     github: 'https://github.com/deontelaborde/review-app-frontend',
-    demo: 'https://rated-our.herokuapp.com',
+    demo: 'https://rated-our.vercel.app/',
     oneline:
       "Rated Our is movie rating app. It's a full-stack PERN app that uses JWT tokens and Local Storage to authenticate and authorize users.",
-    stack: [<SiPostgresql />, <SiExpress />, <DiReact />, <FaNodeJs />, <SiHeroku />],
+    stack: [
+      <SiPostgresql />,
+      <SiExpress />,
+      <DiReact />,
+      <FaNodeJs />,
+      <SiVercel />,
+      <SiRailway />,
+    ],
   },
   {
     id: 4,
