@@ -55,11 +55,6 @@ header {
 
 .pfp {
   width: 100%;
-  transition: var(--transition);
-}
-
-.pfp:hover {
-  transform: scale(1.05);
 }
 
 .pfp-container:hover {

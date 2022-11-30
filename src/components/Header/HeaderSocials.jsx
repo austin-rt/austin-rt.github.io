@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 export default function HeaderSocials() {
   return (
@@ -20,6 +20,15 @@ export default function HeaderSocials() {
         rel='noopener noreferrer'
       >
         <BsLinkedin />
+      </a>
+      <a
+        href='https://www.twitter.com/0xStink'
+        title='Twitter Link'
+        target='_blank'
+        className='icon'
+        rel='noopener noreferrer'
+      >
+        <BsTwitter />
       </a>
     </div>
   );
