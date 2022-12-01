@@ -68,7 +68,7 @@ export const portfolioItems = [
     id: 3,
     image: ratedOur,
     title: 'Rated Our',
-    github: 'https://github.com/deontelaborde/review-app-frontend',
+    github: 'https://github.com/austin-rt/rated-our-frontend',
     demo: 'https://rated-our.vercel.app/',
     oneline:
       "Rated Our is movie rating app. It's a full-stack PERN app that uses JWT tokens and Local Storage to authenticate and authorize users.",
