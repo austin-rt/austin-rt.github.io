@@ -30,7 +30,7 @@ export default function Contact() {
       id='contact'
       ref={contact}
     >
-      <h5>Get In Touch</h5>
+      <h5>Let's Connect</h5>
       <h2>Contact Me</h2>
 
       <div className='container contact__container'>

@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
+import { BsGithub, BsLinkedin, BsTwitter, BsMedium } from 'react-icons/bs';
 
 export default function HeaderSocials() {
   return (
@@ -29,6 +29,15 @@ export default function HeaderSocials() {
         rel='noopener noreferrer'
       >
         <BsTwitter />
+      </a>
+      <a
+        href='https://www.medium.com/@austinrt'
+        title='Medium Link'
+        target='_blank'
+        className='icon'
+        rel='noopener noreferrer'
+      >
+        <BsMedium />
       </a>
     </div>
   );

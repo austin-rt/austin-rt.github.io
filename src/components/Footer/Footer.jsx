@@ -1,6 +1,6 @@
 import './Footer.css';
 import { useContext } from 'react';
-import { BsLinkedin, BsGithub, BsTwitter } from 'react-icons/bs';
+import { BsLinkedin, BsGithub, BsTwitter, BsMedium } from 'react-icons/bs';
 import { RefContext } from '../../context/RefContext';
 
 export default function Footer() {
@@ -81,6 +81,15 @@ export default function Footer() {
           rel='noopener noreferrer'
         >
           <BsTwitter />
+        </a>
+        <a
+          href='https://www.medium.com/@austinrt'
+          title='Medium Link'
+          target='_blank'
+          className='icon'
+          rel='noopener noreferrer'
+        >
+          <BsMedium />
         </a>
       </div>
 
