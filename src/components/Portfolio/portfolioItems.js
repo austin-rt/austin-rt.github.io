@@ -14,6 +14,7 @@ import {
   SiRailway,
   SiNetlify,
   SiVercel,
+  SiRedux,
 } from 'react-icons/si';
 import { FaNodeJs } from 'react-icons/fa';
 import { TbBrandTailwind } from 'react-icons/tb';
@@ -27,7 +28,7 @@ export const portfolioItems = [
     demo: 'https://thunderbird-68145.web.app/',
     oneline:
       'brtr functions as a simulated buy / sell platform for any type of item. You can tell how cool and hip and 2010s we are by the lack of vowels in our name. Users can browse as a guest or create an account for the full experience. With an account users will be able to list and sell thier items and buy other users items. A post MVP version sees reviews for both users and items, credit card processing, user and product reviews, and a barter system to trade items instead of using money.',
-    stack: [<SiFirebase />, <DiReact />, <FaNodeJs />, <TbBrandTailwind />],
+    stack: [<SiFirebase />, <DiReact />, <SiRedux />, <FaNodeJs />, <TbBrandTailwind />],
   },
   {
     id: 1,
@@ -58,6 +59,7 @@ export const portfolioItems = [
       <SiPostgresql />,
       <SiExpress />,
       <DiReact />,
+      <SiRedux />,
       <FaNodeJs />,
       <TbBrandTailwind />,
       <SiNetlify />,
