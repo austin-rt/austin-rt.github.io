@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.93780eb0.css",
-    "main.js": "/static/js/main.07e10a42.js",
+    "main.js": "/static/js/main.19220c54.js",
     "static/media/crapple-maps-1.png": "/static/media/crapple-maps-1.cc5fc94f53cce459e220.png",
     "static/media/about-me.png": "/static/media/about-me.6fa668e949f9d471d6d7.png",
     "static/media/rated-our-2.png": "/static/media/rated-our-2.7a2f54b4c40c86d49326.png",
     "static/media/hoverstate-university-1.png": "/static/media/hoverstate-university-1.3067891fee1d9eb5a38c.png",
     "static/media/butter-behavior-1.png": "/static/media/butter-behavior-1.301302cded7363324f5a.png",
     "static/media/brtr-1.png": "/static/media/brtr-1.15153a3aaa5dbb7f12f2.png",
-    "static/media/headshot-no-bg.png": "/static/media/headshot-no-bg.d00cbcfb652676fbd095.png",
+    "static/media/2023-headshot-no-bg.png": "/static/media/2023-headshot-no-bg.a5221f64bf36d6938aa0.png",
     "static/media/Austin-Taylor-ATS-Resume_2022-10.pdf": "/static/media/Austin-Taylor-ATS-Resume_2022-10.e47f2e04d8c5100933c9.pdf",
     "static/media/block-invaders-4.png": "/static/media/block-invaders-4.9cf19051867411af18d6.png",
     "index.html": "/index.html",
     "main.93780eb0.css.map": "/static/css/main.93780eb0.css.map",
-    "main.07e10a42.js.map": "/static/js/main.07e10a42.js.map"
+    "main.19220c54.js.map": "/static/js/main.19220c54.js.map"
   },
   "entrypoints": [
     "static/css/main.93780eb0.css",
-    "static/js/main.07e10a42.js"
+    "static/js/main.19220c54.js"
   ]
 }
