@@ -3,7 +3,7 @@ import { useContext } from 'react';
 import { RefContext } from '../../context/RefContext';
 import CallToAction from './CallToAction';
 import HeaderSocials from './HeaderSocials';
-import pfp from '../../assets/headshot-no-bg.png';
+import pfp from '../../assets/2023-headshot-no-bg.png';
 
 export default function Header() {
   const { home, portfolio, contact, scrollTo } = useContext(RefContext);
